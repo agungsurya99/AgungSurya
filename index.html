@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Cuci Mobil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .hero-section {
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNQ0U0MqoRIs2Iu6565fD-X_Fwk0VGF6WOhA&s') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
+        .featured-section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .pricing-card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .pricing-card:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background: #343a40;
+            color: white;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cuci Mobil</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Fitur</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimoni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Harga</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section d-flex flex-column align-items-center justify-content-center text-center">
+        <h1>Layanan Cuci Mobil Terbaik</h1>
+        <p class="lead">Kami menyediakan layanan cuci mobil terbaik untuk kendaraan Anda.</p>
+        <a href="#features" class="btn btn-primary btn-lg">Pelajari Lebih Lanjut</a>
+    </section>
+
+    <!-- Featured Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Fitur Unggulan Kami</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <img src="feature1.jpg" alt="Fitur 1" class="img-fluid">
+                    <h3 class="mt-3">Cuci Eksterior</h3>
+                    <p>Layanan cuci eksterior dengan teknologi terkini untuk menjaga kebersihan dan kilau mobil Anda.</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <img src="feature2.jpg" alt="Fitur 2" class="img-fluid">
+                    <h3 class="mt-3">Cuci Interior</h3>
+                    <p>Kami membersihkan interior mobil Anda dengan teliti, termasuk vacuum dan detailing.</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <img src="feature3.jpg" alt="Fitur 3" class="img-fluid">
+                    <h3 class="mt-3">Layanan Poles</h3>
+                    <p>Poles mobil untuk mengembalikan kilau dan melindungi cat mobil Anda dari goresan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Apa Kata Pelanggan Kami</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Layanan cuci mobil yang sangat profesional dan hasilnya memuaskan!"</p>
+                            <p class="text-end"><strong>- Budi</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Mobil saya jadi bersih dan kinclong. Sangat direkomendasikan!"</p>
+                            <p class="text-end"><strong>- Siti</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Pelayanan ramah dan hasil cuci sangat detail. Terima kasih!"</p>
+                            <p class="text-end"><strong>- Ahmad</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Harga Layanan Kami</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card pricing-card">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Paket Basic</h3>
+                            <p class="card-text">Rp50.000</p>
+                            <ul class="list-unstyled">
+                                <li>Cuci Eksterior</li>
+                                <li>Vacuum Interior</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card pricing-card">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Paket Premium</h3>
+                            <p class="card-text">Rp100.000</p>
+                            <ul class="list-unstyled">
+                                <li>Cuci Eksterior</li>
+                                <li>Vacuum Interior</li>
+                                <li>Poles Mobil</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card pricing-card">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Paket Ultimate</h3>
+                            <p class="card-text">Rp150.000</p>
+                            <ul class="list-unstyled">
+                                <li>Cuci Eksterior</li>
+                                <li>Vacuum Interior</li>
+                                <li>Poles Mobil</li>
+                                <li>Detailing Interior</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Kontak Kami</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nama</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="message" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <h4>Alamat</h4>
+                    <p>Jl. Cuci Mobil No. 1, Surabaya</p>
+                    <h4>Telepon</h4>
+                    <p>(031) 123-4567</p>
+                    <h4>Email</h4>
+                    <p>info@cucimobil.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Cuci Mobil. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
